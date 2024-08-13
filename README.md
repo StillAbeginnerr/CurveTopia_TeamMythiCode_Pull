@@ -6,7 +6,6 @@
 ![image](https://github.com/user-attachments/assets/ec4bf2f3-0d98-4ffd-bc2b-bd70c05e2f65)
 
 ## Table of Contents 📃
-- [Demo](#demo-pics)
 - [Approach](#approach)
 - [How to Run](#how-to-run)
 - [Detailed Code Understanding](#detailed-code-understanding)
