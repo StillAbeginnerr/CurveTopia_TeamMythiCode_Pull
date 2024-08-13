@@ -23,6 +23,9 @@ We tried and tested multiple solutions through trial and error, combining multip
 However, the best solution as highlighted in [99_Accurate_Solution.ipynb](https://github.com/thejediboySHASHANK/CurveTopia_MythiCode_Pull/blob/main/99_Accurate_Solution.ipynb),
 was achieved through a meticulate combination of all the above listed trials, errors and optimizations on top of that.
 
+For us, accuracy was the single-most important metric from Day-0, and we put all our efforts into that with a laser sharp focus.
+We wanted to create a nice UI, or a convert it into a SaaS, however we aligned them with out future vision and came up with the magical 99% accurate solution.
+
 - Dataset Import: Automated CSV file import and preprocessing for geometric data.
 - Curve Grouping: Classified segments into open and closed curves based on connectivity.
 - Shape Identification: Using OpenCV + Basic Geometric shapes formulas (Areas, Perimeter, radius, etc) to approximate contours and classify geometric shapes.
