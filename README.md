@@ -2,8 +2,6 @@
 
 ## Demo Video
 
-![image](https://github.com/user-attachments/assets/0699c2bc-c807-446a-9ec3-d33b68f343af)
-![image](https://github.com/user-attachments/assets/ec4bf2f3-0d98-4ffd-bc2b-bd70c05e2f65)
 
 ## Table of Contents 📃
 - [Approach](#approach)
