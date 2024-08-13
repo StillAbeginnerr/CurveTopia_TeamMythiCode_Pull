@@ -10,7 +10,7 @@
 - [Approach](#approach)
 - [How to Run](#how-to-run)
 - [Detailed Code Understanding](#detailed-code-understanding)
-- [Current Integrations & Planned](#current-integrations--planned)
+- [Future Vision](#future-vision)
 - [Contributing](#contributing)
 
 ## Approach 📌
