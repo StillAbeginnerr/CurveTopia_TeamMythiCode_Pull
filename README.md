@@ -203,6 +203,11 @@ This repository contains Python scripts for processing and visualizing geometric
 4. **Remove Coincident Points**: Clean the data by removing points that overlap with the model.
 5. **Save Results**: Write the processed data to a new CSV file.
 
+## How to Run the Jupyter Notebook
+
+To explore and execute the code in this repository, you can run the Jupyter Notebook (`.ipynb` file) in a local or cloud-based environment. If you have Jupyter installed locally, simply open your terminal, navigate to the directory containing the `.ipynb` file, and run `jupyter notebook`. This will open the Jupyter interface in your web browser, where you can select and open the notebook file. Alternatively, you can use cloud platforms like Google Colab or Kaggle, which allow you to upload and run Jupyter Notebooks without any setup. After opening the notebook, you can run each code cell sequentially by clicking on the cell and pressing `Shift + Enter`. This will allow you to follow the shape processing, regularization, and symmetry detection steps interactively.
+
+
 ---
 
 Feel free to explore the code and contribute to this project. If you have any questions or suggestions, please open an issue or submit a pull request.
