@@ -2,6 +2,10 @@
 
 ## Demo Video
 
+(Click on the banner to open demo video)
+[![Video](https://github.com/user-attachments/assets/f8d1029f-f769-43ee-b31e-c9d4a8cd72e7)](https://drive.google.com/drive/u/3/folders/1Ea6gnnH0Uj72E1-p0lcGqqvuYBQR4uSe)
+
+
 
 ## Table of Contents 📃
 - [Approach](#approach)
