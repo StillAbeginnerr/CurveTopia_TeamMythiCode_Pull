@@ -1,11 +1,16 @@
 ## Solution for Adobe GenSolve CurveTopia by Team MythiCode Pull
 
+## Demo Video
+
+![image](https://github.com/user-attachments/assets/0699c2bc-c807-446a-9ec3-d33b68f343af)
+![image](https://github.com/user-attachments/assets/ec4bf2f3-0d98-4ffd-bc2b-bd70c05e2f65)
+
 ## Table of Contents 📃
+- [Demo](#demo-pics)
 - [Approach](#approach)
 - [How to Run](#how-to-run)
-- [Overview](#overview)
+- [Detailed Code Understanding](#detailed-code-understanding)
 - [Current Integrations & Planned](#current-integrations--planned)
-- [Demo](#demo-pics)
 - [Contributing](#contributing)
 
 ## Approach 📌
@@ -27,7 +32,7 @@ was achieved through a meticulate combination of all the above listed trials, er
 - Visualization: Created side-by-side visual comparisons of original and processed curves.
 - Batch Processing: Enabled automated processing of multiple datasets with results saved to CSV files.
 
-## How to Run
+## How to Run ⭐
 - **Get Started Easily:** Running the solution is simple, we have compiled our solution in the [99_Accurate_Solution.ipynb](https://github.com/thejediboySHASHANK/CurveTopia_MythiCode_Pull/blob/main/99_Accurate_Solution.ipynb).
 - Open that ```.ipynb``` Notebook either in Google Collab or local Jupyter Notebook by downloading it from the repository.
 - Upload the ```problems``` dataset in the input file and adjust paths if necessary.
@@ -35,59 +40,16 @@ was achieved through a meticulate combination of all the above listed trials, er
 
 Please refer to the demo video to get a guided walkthrough on how to run the solution.
 
-## Overview 🔭
+## Detailed Code Understanding 🔭
 
-**OrchestrAI**  is a cutting-edge no-code automation tool designed to streamline and simplify complex workflows through seamless AI integration. It empowers users to create sophisticated automation systems with ease, merging AI technologies like GPT and Gemini to enhance efficiency and productivity across various applications.
+If you are interested in seeing detailed line-by-line code explanations, then please refer to this [Notion Page]().
 
-### Key Features ⚡
+## Future Vision 💯
 
-- **No-Code Tool**: Easily create complex automations without writing a single line of code.
-- **AI Integration**: Seamlessly integrate with AI technologies to enhance functionality.
-- **Customizable Workflows**: Tailor workflows to meet the specific needs of your processes.
-- **User-Friendly Interface**: A clean, intuitive interface that makes automation accessible to everyone.
+While this repository is originally created for the ```Round - 2 of Adobe Genzolve```, we plan to extend the solution (irrespective of the result with further Adobe Rounds) as a project of free-hand draw canvas tool for note-taking or doodling SaaS, targetting specific product use-case niches.
 
-### How It Works ✅
+## Contributing ✅
 
-OrchestrAI leverages Google Drive as an action trigger (for now, click here to see future integrations being developed) to initiate workflows that integrate seamlessly with other applications like Discord, Slack, and Notion. 
-When a specified event occurs in Google Drive, such as a new file upload or update, 
-OrchestrAI activates the designated actions in the connected services to facilitate real-time responses and automate tasks efficiently.
-
-### Setting Up Your First Workflow ⭕
-
-1. **Define the Trigger**:
-   Configure Google Drive as the trigger. Specify the events within Google Drive that should start the workflow.
-
-2. **Configure the Actions**:
-   Choose and set up the actions that should be executed in Discord, Slack, or Notion once the trigger event occurs.
-
-3. **Test and Deploy**:
-   Test the workflow thoroughly to ensure that it functions as intended. Once confirmed, deploy it to automate your tasks without further manual intervention.
-
-## Current Integrations & Planned 🧑‍💻
-
-<div align="center">
-
-| Integration  | Type        | Status           | Description                                                  |
-|--------------|-------------|------------------|--------------------------------------------------------------|
-| Google Drive | Trigger     | Active           | Listens for any changes and initiates workflows.             |
-| Discord      | Listener    | Active           | Receives notifications and automates responses.              |
-| Slack        | Listener    | Active           | Automates notifications and task-related workflows.          |
-| Notion       | Listener    | Planned          | Future integration for document and knowledge management.    |
-| ChatGPT      | Trigger/Listener    | Planned          | Planned for enhancing interactive and automated responses.   |
-| Google Sheets| Trigger/Listener    | Planned          | Planned for automating data-driven tasks and analysis.       |
-| Gmail        | Trigger/Listener    | Planned          | Planned for automating email-based workflows and alerts.     |
-| WhatsApp     | Trigger/Listener    | Planned          | Planned for messaging and notifications automation.          |
-| Telegram     | Trigger/Listener    | Planned          | Planned for secure messaging and automation of communications.|
-
-</div>
-
-## Demo Pics
-
-![image](https://github.com/user-attachments/assets/0699c2bc-c807-446a-9ec3-d33b68f343af)
-![image](https://github.com/user-attachments/assets/ec4bf2f3-0d98-4ffd-bc2b-bd70c05e2f65)
-
-
-## Contributing
-
-Liked my project? Please feel free to star, raise a PR or fork to extend this project! 🚀
-This is a big and impactful project, collaborators are always welcomed!
+Liked the vision? Or
+Liked my solution? Please feel free to star, raise a PR or fork to extend this project! 🚀
+This is a really interesting and valuable project, collaborators are always welcomed!
