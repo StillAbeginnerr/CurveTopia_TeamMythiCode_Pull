@@ -2,10 +2,10 @@
 
 ## Table of Contents 📃
 - [Approach](#approach)
+- [How to Run](#how-to-run)
 - [Overview](#overview)
 - [Current Integrations & Planned](#current-integrations--planned)
 - [Demo](#demo-pics)
-- [How to Run](#how-to-run)
 - [Contributing](#contributing)
 
 ## Approach 📌
@@ -21,11 +21,19 @@ was achieved through a meticulate combination of all the above listed trials, er
 
 - Dataset Import: Automated CSV file import and preprocessing for geometric data.
 - Curve Grouping: Classified segments into open and closed curves based on connectivity.
-- Shape Identification: Using OpenCV to approximate contours and classify geometric shapes.
+- Shape Identification: Using OpenCV + Basic Geometric shapes formulas (Areas, Perimeter, radius, etc) to approximate contours and classify geometric shapes.
 - Symmetry Detection: Implemented methods to detect symmetry through vertex reflection and perpendicular bisectors.
-- Curve Regularization: Applied B-spline interpolation and RANSAC-based model fitting for curve completion.
+- Curve Regularization: After Shape Detection by extracting and adjusting their contours, fitting them to standard geometric models (like circles, ellipses, and polygons), and then visualizing these cleaned and consistent shapes to ensure they adhere to expected geometric properties.
 - Visualization: Created side-by-side visual comparisons of original and processed curves.
 - Batch Processing: Enabled automated processing of multiple datasets with results saved to CSV files.
+
+## How to Run
+- **Get Started Easily:** Running the solution is simple, we have compiled our solution in the [99_Accurate_Solution.ipynb](https://github.com/thejediboySHASHANK/CurveTopia_MythiCode_Pull/blob/main/99_Accurate_Solution.ipynb).
+- Open that ```.ipynb``` Notebook either in Google Collab or local Jupyter Notebook by downloading it from the repository.
+- Upload the ```problems``` dataset in the input file and adjust paths if necessary.
+- Run through each cell to try and test out the solution
+
+Please refer to the demo video to get a guided walkthrough on how to run the solution.
 
 ## Overview 🔭
 
@@ -78,9 +86,6 @@ OrchestrAI activates the designated actions in the connected services to facilit
 ![image](https://github.com/user-attachments/assets/0699c2bc-c807-446a-9ec3-d33b68f343af)
 ![image](https://github.com/user-attachments/assets/ec4bf2f3-0d98-4ffd-bc2b-bd70c05e2f65)
 
-
-## How to Run
-- **Get Started Easily:** Setting up OrchestrAI locally involves a few detailed steps due to its comprehensive integrations and features. To ensure a smooth setup, please [open an issue](https://github.com/thejediboySHASHANK/Orchestr/issues) in the repository, and we'll provide you with detailed, customized guidance for your environment. This will help streamline your installation process and get you up and running quickly!
 
 ## Contributing
 
