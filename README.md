@@ -1,7 +1,7 @@
 ## Solution for Adobe GenSolve CurveTopia by Team MythiCode Pull
 
 ## Table of Contents 📃
-- [Motivation and Need of the project](#motivation-and-need-of-the-project)
+- [Approach](#approach)
 - [Overview](#overview)
 - [Current Integrations & Planned](#current-integrations--planned)
 - [Demo](#demo-pics)
@@ -12,7 +12,20 @@
 
 We tried and tested multiple solutions through trial and error, combining multiple technologies:
 - R-CNN for Shapes Detection
+- Pure OpenCV Countours based approach
+- RDP Algorithm for shape simplification as smoothing
+- Image Segmentation for Shape Detections
 
+However, the best solution as highlighted in [99_Accurate_Solution.ipynb](https://github.com/thejediboySHASHANK/CurveTopia_MythiCode_Pull/blob/main/99_Accurate_Solution.ipynb),
+was achieved through a meticulate combination of all the above listed trials, errors and optimizations on top of that.
+
+- Dataset Import: Automated CSV file import and preprocessing for geometric data.
+- Curve Grouping: Classified segments into open and closed curves based on connectivity.
+- Shape Identification: Using OpenCV to approximate contours and classify geometric shapes.
+- Symmetry Detection: Implemented methods to detect symmetry through vertex reflection and perpendicular bisectors.
+- Curve Regularization: Applied B-spline interpolation and RANSAC-based model fitting for curve completion.
+- Visualization: Created side-by-side visual comparisons of original and processed curves.
+- Batch Processing: Enabled automated processing of multiple datasets with results saved to CSV files.
 
 ## Overview 🔭
 
